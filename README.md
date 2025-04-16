@@ -195,10 +195,10 @@ Punjab Engineering College, Chandigarh
 This project was made possible through the support, tools, and guidance provided by various individuals and institutions. I would like to express my sincere gratitude to:
 
 -   **Cadence Design Systems**, for providing the industry-standard tools used for schematic design and simulation.
--   **Punjab Engineering College (PEC), Chandigarh**, for the academic environment and resources that supported this work.
--   **Ashmit Garg**, VLSI specialization, PEC Chandigarh --- for his continuous mentorship and technical guidance throughout the project.
--   **Shashwat Mishra**, VLSI specialization, PEC Chandigarh --- for his collaborative support and valuable insights into CMOS design.
--   **Department of Electronics and Communication Engineering**, PEC --- for enabling access to simulation tools and lab resources.
+-   **Punjab Engineering College ,Chandigarh**, for the academic environment and resources that supported this work.
+-   **Ashmit Garg**, VLSI, Punjab Engineering College ,Chandigarh 
+-   **Shashwat Mishra**, VLSI, Punjab Engineering College ,Chandigarh
+-   **Department of Electronics and Communication Engineering**, PEC - for enabling access to simulation tools and lab resources.
 
 ---
 
