@@ -23,9 +23,9 @@ This project involves the **schematic design and simulation** of a **2-input CMO
   - Transistor widths (Wn/Wp) - (120nm / 120nm) , (240nm / 120nm) , (360nm / 120nm) , (480nm / 120nm) , (600nm / 120nm)
   - Temperature: e.g., -40°C, 27°C, 120°C
 
-- ![Truth Table](Images/Truth Table.png)
+- ![Truth Table](Images/Truth-Table.png)
 - ![Circuit Diagram](Images/reference-circuit.jpg)
-- ![Expected Waveform](Images/Reference Circuit Waveform.jpg)
+- ![Expected Waveform](Images/Reference-Circuit-Waveform.jpg)
 
 ---
 
@@ -35,8 +35,8 @@ The following schematic shows the CMOS implementation of a 2-input XOR gate usin
 Figure: CMOS XOR gate schematic drawn in Cadence Virtuoso.(Images/XOR_Schematic.png)
 
 Inputs:
-  - A (Images/A.png)
-  - B (Images/B.png)
+  - A ![Input A](Images/A_input.png)
+  - B ![Input B](Images/B_input.png)
 
 ---
 
@@ -53,7 +53,7 @@ Inputs:
 -   PMOS widths: from 120 nm to 600 nm in steps of 120 nm
 
 -   The simulation aimed to analyze the output voltage behavior of the XOR gate under different scenarios.
--   ![ADE Window](Images/DC transfer characteristics/Screenshot 2025-04-16 174951.png)
+-   ![ADE Window](Images/DC-transfer-characteristics/window.png)
 
 *Sweep on Input A*
 
@@ -61,7 +61,7 @@ Inputs:
 -   Input B: held constant at 0V
 -   This simulates the XOR logic behavior for 0 XOR A
 -   The output exhibits expected rising behavior as input A transitions from logic 0 to logic 1
--   ![Variation in A](Images/DC transfer characteristics/varA.png)
+-   ![Variation in A](Images/DC-transfer-characteristics/varA.png)
 
 *Sweep on Input B*
 
@@ -69,7 +69,7 @@ Inputs:
 -   Input B: swept from 0V to 1.8V
 -   This simulates the XOR logic behavior for A XOR 0 (same as above due to symmetry)
 -   Output characteristics are similar to the previous case with consistent logic swing
--   ![Variation in B](Images/DC transfer characteristics/varB.png)
+-   ![Variation in B](Images/DC-transfer-characteristics/varB.png)
 
 ### Transient Analysis
 
@@ -82,7 +82,7 @@ Inputs:
 
 -   The XOR gate's dynamic behavior was observed through the resulting output waveform.
 -   **Simulation Type**: Transient analysis using **Cadence ADE L**\
-*Figure: ADE L environment used for transient simulations.* (Images/Trans/27/Screenshot 2025-04-16 170031.png)
+*Figure: ADE L environment used for transient simulations.* ![ADE-L](Images/Trans/27/ADE.png)
 
 * * * * *
 
@@ -94,14 +94,14 @@ Inputs:
 -   **Temperature**: -40°C, 27°C, and 120°C
 
 -   This setup allows observation of performance variation under different PVT conditions.\
-*Figure: Parametric sweep configuration in ADE L.*(Images/Trans/-40 to +120(8).png)
+*Figure: Parametric sweep configuration in ADE L.*![Sweep Config](Images/Trans/-40to+120.png)
 
 * * * * *
 
 ** Transient Response (Baseline)**
 
 -   Output waveform for XOR gate showing expected toggling behavior based on pulse inputs.\
-*Figure: XOR gate transient output showing correct logic transitions.* (Images/Trans/27/120 n.png)
+*Figure: XOR gate transient output showing correct logic transitions.* ![Baseline](Images/Trans/27/120n.png)
 
 * * * * *
 
@@ -117,7 +117,7 @@ Inputs:
 
 -   Temperature swept across -40°C, 27°C, and 120°C.
 -   Output waveform shows minimal impact on delay or voltage swing, indicating thermal stability.\
-*Figure: XOR transient response across temperature range.* (Images/Trans/-40 to +120.png)
+*Figure: XOR transient response across temperature range.* ![Graph](Images/Trans/graphop.png)
 
 ---
 
