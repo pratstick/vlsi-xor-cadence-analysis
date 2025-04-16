@@ -32,7 +32,8 @@ This project involves the **schematic design and simulation** of a **2-input CMO
 ## Circuit Schematic
 
 The following schematic shows the CMOS implementation of a 2-input XOR gate using complementary pull-up and pull-down networks:
-Figure: CMOS XOR gate schematic drawn in Cadence Virtuoso.(Images/XOR_Schematic.png)
+Figure: CMOS XOR gate schematic drawn in Cadence Virtuoso.
+![schematic](Images/XOR_Schematic.png)
 
 Inputs:
   - A ![Input A](Images/A_input.png)
@@ -42,7 +43,7 @@ Inputs:
 
 ##  Simulations Performed
 
-## **DC Transfer Characteristics**
+### **DC Transfer Characteristics**
 
  Setup (ADE L)
 
@@ -73,7 +74,7 @@ Inputs:
 
 ### Transient Analysis
 
-** Setup**
+**Setup**
 
 -   **Input Sources**: vpulse sources were used to generate digital transitions for XOR inputs.
 
@@ -86,7 +87,7 @@ Inputs:
 
 * * * * *
 
-** Parametric Simulation Setup**
+**Parametric Simulation Setup**
 
 -   Parametric sweep configured in ADE L to vary:
 
@@ -98,14 +99,14 @@ Inputs:
 
 * * * * *
 
-** Transient Response (Baseline)**
+**Transient Response (Baseline)**
 
 -   Output waveform for XOR gate showing expected toggling behavior based on pulse inputs.\
 *Figure: XOR gate transient output showing correct logic transitions.* ![Baseline](Images/Trans/27/120n.png)
 
 * * * * *
 
-** Effect of PMOS Width Variation**
+**Effect of PMOS Width Variation**
 
 -   PMOS widths varied from 120 nm to 600 nm.
 -   Minor improvement in **rise time** with increased PMOS width; otherwise, output remained consistent.\
@@ -113,7 +114,7 @@ Inputs:
 
 * * * * *
 
-** Effect of Temperature Variation**
+**Effect of Temperature Variation**
 
 -   Temperature swept across -40°C, 27°C, and 120°C.
 -   Output waveform shows minimal impact on delay or voltage swing, indicating thermal stability.\
