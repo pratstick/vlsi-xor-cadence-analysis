@@ -58,7 +58,7 @@ Inputs:
 
 *Sweep on Input A*
 
--   Input A: swept from 0V to 1.8V
+-   Input A: swept from 0V to 1V
 -   Input B: held constant at 0V
 -   This simulates the XOR logic behavior for 0 XOR A
 -   The output exhibits expected rising behavior as input A transitions from logic 0 to logic 1
@@ -67,7 +67,7 @@ Inputs:
 *Sweep on Input B*
 
 -   Input A: held constant at 0V
--   Input B: swept from 0V to 1.8V
+-   Input B: swept from 0V to 1V
 -   This simulates the XOR logic behavior for A XOR 0 (same as above due to symmetry)
 -   Output characteristics are similar to the previous case with consistent logic swing
 -   ![Variation in B](Images/DC-transfer-characteristics/varB.png)
@@ -129,7 +129,7 @@ Inputs:
 **Setup:**
 
 -   CMOS XOR gate simulated using transient analysis in Cadence Virtuoso.
--   Input pulses applied with 1.8V supply.
+-   Input pulses applied with 1V supply.
 -   Temperature varied across **-40°C**, **27°C**, and **120°C**.
 
 **Observation:**
