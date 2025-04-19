@@ -110,7 +110,7 @@ Inputs:
 
 -   PMOS widths varied from 120 nm to 600 nm.
 -   Minor improvement in **rise time** with increased PMOS width; otherwise, output remained consistent.\
-*Figure: XOR output response for different PMOS sizes.*(Images/Trans/graph width from 120 to 600.png)
+*Figure: XOR output response for different PMOS sizes.*![Varying Width](Images/Trans/VaryingWidth.png)
 
 * * * * *
 
