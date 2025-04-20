@@ -20,7 +20,7 @@ This project involves the **schematic design and simulation** of a **2-input CMO
 - **Technology**: CMOS (Complementary MOSFETs)
 - **Simulations**: DC sweep, Transient analysis
 - **Parametric Variations**:
-  - Transistor widths (Wn/Wp) - (120nm / 120nm) , (240nm / 120nm) , (360nm / 120nm) , (480nm / 120nm) , (600nm / 120nm)
+  - Transistor widths (Wp/Wn) - (120nm / 120nm) , (240nm / 120nm) , (360nm / 120nm) , (480nm / 120nm) , (600nm / 120nm)
   - Temperature: e.g., -40°C, 27°C, 120°C
 
 - ![Truth Table](Images/Truth-Table.png)
